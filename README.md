@@ -20,11 +20,7 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+   
   </p>
 </div>
 
@@ -35,10 +31,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Instalación-de-Git">Instalación de Git</a>
-    </li>
-    <li>
-      <a href="#GitHub">GitHub</a>
+      <a href="#Git-y-GitHub">Git y GitHub</a>
     </li>
     <li><a href="#Instalación-de-Python">Instalación de Python</a></li>
     <li><a href="#Librerías-en-Python">Librerías en Python</a></li>
@@ -51,9 +44,9 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Instalación de Git
+## Git y GitHub
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]https://www.canva.com/design/DAEtXTH2Kg8/qwC_wkqstmOwShmmnFFdEw/view?website#2)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
