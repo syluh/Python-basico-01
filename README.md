@@ -35,6 +35,7 @@
     </li>
     <li><a href="#Instalación-de-Python">Instalación de Python</a></li>
     <li><a href="#Librerías-en-Python">Librerías en Python</a></li>
+    <li><a href="#Ejemplos-básicos-Python">Ejemplos-Básicos-Python</a></li>
     <li><a href="#Ejemplos-con-Pandas">Ejemplos con Pandas</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -106,14 +107,103 @@ source ruta-a-carpeta-entorno/bin/activate
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Ejemplos-Básicos-Python
+
+Usted puede ejecutar los siguiente ejemplos, ingresando a la carpeta **ejemplos-python-basicos**. En la carpeta, a través del terminal, digitar
+```python
+jupyter notebook
+```
+
+* Ejemplo 01
+```python
+# cadena - str
+mensaje = "hola mundo"
+print(mensaje)
+print("%s" % (mensaje))
+print(f"{mensaje}")
+```
+
+* Ejemplo 02
+```python
+nombre = input("Ingrese nombre del persona: ")
+
+edad = int(input("Ingrese edad de persona: "))
+
+sueldo = float(input("Ingrese el sueldo de la persona: "))
+                    
+mensajeFinal = "Nombre:%s\nEdad:%d\nSueldo:%.2f\n" % (nombre, 
+        edad, sueldo)
+
+print(mensajeFinal)
+```
+
+* Ejemplo 03
+```
+sueldo = 110
+
+while sueldo <= 120:
+    print(f"{sueldo}")
+    sueldo = sueldo + 5
+
+print("%.2f" % sueldo)
+```
+* Ejemplo 04
+```
+sueldo = 110
+
+for i in range(0, sueldo):
+    print(i)
+
+sueldo = 110
+
+for i in range(0, sueldo, 20):
+    print(i)
+```
+
+* Ejemplo 05
+```
+lista1 = []
+
+lista2 = ["a", 1, [], "b"]
+
+lista3 = [1]
+lista3.append("b")
+lista3.append("c")
+lista3.append(10)
 
 
+
+for i in lista2:
+    print(i)
+```
 <!-- USAGE EXAMPLES -->
 ## Ejemplos con Pandas
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Usted puede ejecutar los siguiente ejemplos, ingresando a la carpeta **ejemplos-python-pandas**. En la carpeta, a través del terminal, digitar
+```python
+jupyter notebook
+```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+* Ejemplo-Pandas-01
+```python
+import pandas as pd
+
+mi_df = pd.DataFrame(({'a': [11,12,13], 'b': [21,22,23]}))
+print(mi_df)
+
+data = {'ciudad': ['Loja', 'Pichincha', 'Guayas'],
+        'capital' : ['Loja', 'Quito', 'Guayaquil'],
+        'zona'  : [7, 8, 1]}
+frame = pd.DataFrame(data) # Creando un DataFrame desde un diccionario
+frame
+```
+* Ejemplo-Pandas-02
+```python
+```
+* Ejemplo-Pandas-03
+```python
+```
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
