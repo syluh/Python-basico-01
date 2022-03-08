@@ -52,8 +52,8 @@
 
 * Comandos globales de GIT antes de empezar a trabajar (una sola vez):
 ```sh
-	git config --global user.name "John Doe"
-	git config --global user.email johndoe@example.com
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
 ```
 * Comandos básicos de GIT
 ```sh
