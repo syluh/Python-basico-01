@@ -135,7 +135,7 @@ mensajeFinal = "Nombre:%s\nEdad:%d\nSueldo:%.2f\n" % (nombre,
         edad, sueldo)
 
 print(mensajeFinal)
-```
+```python
 
 * Ejemplo 03
 ```
@@ -148,7 +148,7 @@ while sueldo <= 120:
 print("%.2f" % sueldo)
 ```
 * Ejemplo 04
-```
+```python
 sueldo = 110
 
 for i in range(0, sueldo):
@@ -161,7 +161,7 @@ for i in range(0, sueldo, 20):
 ```
 
 * Ejemplo 05
-```
+```python
 lista1 = []
 
 lista2 = ["a", 1, [], "b"]
