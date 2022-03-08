@@ -199,9 +199,20 @@ frame
 ```
 * Ejemplo-Pandas-02
 ```python
+import pandas as pd
+df = pd.read_csv("data/Matrimonios_2014.csv")
+df.keys()
+
+df.mes_insc.value_counts()[:12].sort_values(inplace=False).plot(kind='barh');
 ```
 * Ejemplo-Pandas-03
 ```python
+import pandas as pd
+import sqlite3
+
+connection = sqlite3.connect("data/instituciones.db")
+connection.text_factory = str
+result = pd.read_sql_query("SELECT * from educativas", connection)
 ```
 
 
@@ -211,9 +222,8 @@ frame
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+René Elizalde - [@reroes](https://twitter.com/reroes) - rrelizalde@utpl.edu.ec
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -222,9 +232,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
-
+[https://investigacion.utpl.edu.ec/es/grupos/kbs](https://investigacion.utpl.edu.ec/es/grupos/kbs) 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
