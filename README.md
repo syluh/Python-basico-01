@@ -66,7 +66,7 @@ Python-basico-01
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Instalacion-de-Git">Instalación de Git</a>
+      <a href="#Instalación-de-Git">Instalación de Git</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
