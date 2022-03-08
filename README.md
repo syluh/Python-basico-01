@@ -114,7 +114,7 @@ Usted puede ejecutar los siguiente ejemplos, ingresando a la carpeta **ejemplos-
 jupyter notebook
 ```
 
-* Ejemplo 01
+* Ejemplo 01 - [codigo](https://github.com/Knowledge-Based-Systems/Python-basico-01/blob/main/ejemplos-python-basicos/Ejemplo01.ipynb) 
 ```python
 # cadena - str
 mensaje = "hola mundo"
@@ -123,7 +123,7 @@ print("%s" % (mensaje))
 print(f"{mensaje}")
 ```
 
-* Ejemplo 02
+* Ejemplo 02 - [codigo](https://github.com/Knowledge-Based-Systems/Python-basico-01/blob/main/ejemplos-python-basicos/Ejemplo02.ipynb) 
 ```python
 nombre = input("Ingrese nombre del persona: ")
 
@@ -137,7 +137,7 @@ mensajeFinal = "Nombre:%s\nEdad:%d\nSueldo:%.2f\n" % (nombre,
 print(mensajeFinal)
 ```
 
-* Ejemplo 03
+* Ejemplo 03 - [codigo](https://github.com/Knowledge-Based-Systems/Python-basico-01/blob/main/ejemplos-python-basicos/Ejemplo03.ipynb) 
 ```python
 sueldo = 110
 
@@ -148,7 +148,7 @@ while sueldo <= 120:
 print("%.2f" % sueldo)
 ```
 
-* Ejemplo 04
+* Ejemplo 04 
 ```python
 sueldo = 110
 
@@ -161,7 +161,7 @@ for i in range(0, sueldo, 20):
     print(i)
 ```
 
-* Ejemplo 05
+* Ejemplo 05 - [codigo](https://github.com/Knowledge-Based-Systems/Python-basico-01/blob/main/ejemplos-python-basicos/Ejemplo05.ipynb) 
 ```python
 lista1 = []
 
