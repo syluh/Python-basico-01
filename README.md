@@ -135,10 +135,10 @@ mensajeFinal = "Nombre:%s\nEdad:%d\nSueldo:%.2f\n" % (nombre,
         edad, sueldo)
 
 print(mensajeFinal)
-```python
+```
 
 * Ejemplo 03
-```
+```python
 sueldo = 110
 
 while sueldo <= 120:
@@ -147,6 +147,7 @@ while sueldo <= 120:
 
 print("%.2f" % sueldo)
 ```
+
 * Ejemplo 04
 ```python
 sueldo = 110
@@ -204,7 +205,7 @@ import pandas as pd
 df = pd.read_csv("data/Matrimonios_2014.csv")
 df.keys()
 
-df.mes_insc.value_counts()[:12].sort_values(inplace=False).plot(kind='barh');
+df.mes_insc.value_counts()[:12].sort_values(inplace=False).plot(kind='barh')
 ```
 
 * Ejemplo-Pandas-03
