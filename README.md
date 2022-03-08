@@ -49,52 +49,60 @@
 
 [Conceptos y comandos de Git y GitGub](https://www.canva.com/design/DAEtXTH2Kg8/qwC_wkqstmOwShmmnFFdEw/view?website#2) 
 
+* Comandos globales de GIT antes de empezar a trabajar (una sola vez):
+```sh
+	git config --global user.name "John Doe"
+	git config --global user.email johndoe@example.com
+```
+* Comandos básicos de GIT
+```sh
+git clone 	# [dirección del repositorio]
+git add .   # agregar archivos al repositorio
+git commit  -a -m"mensaje"    # poner archivos en proceso de versionamiento en el local
+git push # subir los cambios al servidor
+git status  # ver estado de los archivos
+git pull # [actualizar cambios que está en el servidor]
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-## GitHub
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
 ## Instalación de Python
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1. Descargar de la página oficial: [https://www.python.org/](https://www.python.org/) 
+2. Revisar el siguiente enlace: [Python](https://www.canva.com/design/DAE6ZNEML6k/ZMXgexKAXGd-O3giMJVHjQ/view?website#2) 
 
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ## Librerías en Python
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Uso de entornos virtuales: [Entornos-Python](https://www.canva.com/design/DAE6ZGmZvUo/-onO254gacXbtn5caOwN4g/view?website#2) 
+
+* Primer parte
+1. 
+```sh
+   pip install virtualenv
+```
+2. Crear entorno virtual
+```sh
+virtualenv ruta/carpeta/entorno
+```
+3. Activar entorno en Linux
+```sh
+source ruta-a-carpeta-entorno/bin/activate
+```
+4. Activar entorno en Windows
+```sh
+\ruta-a-carpeta-entorno\Scripts\activate.bat
+```
+
+* Segundo Parte
+1. Instalar paquetes en Python 
+```sh
+   pip install jupyter
+   pip install jupyterlab
+   pip install pandas
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
