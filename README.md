@@ -1,14 +1,3 @@
-# Python-basico-01
-Python-basico-01
-
-## Temario
-
-1. Instalación de Git 
-2. Creación y configuración de cuenta en GitHub
-3. Instalación de Python
-4. Instalación de librerías en Python
-5. Ejemplos con Pandas
-
 <div id="top"></div>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -17,26 +6,6 @@ Python-basico-01
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -44,7 +13,7 @@ Python-basico-01
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Capacitación Python</h3>
+<h3 align="center">Python-basico-01</h3>
 
   <p align="center">
     Primeros pasos en Python
