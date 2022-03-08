@@ -46,18 +46,9 @@
 <!-- ABOUT THE PROJECT -->
 ## Git y GitHub
 
-[![Product Name Screen Shot][product-screenshot]]https://www.canva.com/design/DAEtXTH2Kg8/qwC_wkqstmOwShmmnFFdEw/view?website#2)
 
-[git and github](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) 
+[Conceptos y comandos de Git y GitGub](https://www.canva.com/design/DAEtXTH2Kg8/qwC_wkqstmOwShmmnFFdEw/view?website#2) 
 
-<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="300"
-    height="200"
-    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
-</iframe>
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
