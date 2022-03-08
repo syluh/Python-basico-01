@@ -185,7 +185,7 @@ Usted puede ejecutar los siguiente ejemplos, ingresando a la carpeta **ejemplos-
 jupyter notebook
 ```
 
-* Ejemplo-Pandas-01
+* Ejemplo-Pandas-01 - [codigo](https://github.com/Knowledge-Based-Systems/Python-basico-01/blob/main/ejemplos-python-pandas/Ejemplo-Pandas-01.ipynb) 
 ```python
 import pandas as pd
 
@@ -199,7 +199,7 @@ frame = pd.DataFrame(data) # Creando un DataFrame desde un diccionario
 frame
 ```
 
-* Ejemplo-Pandas-02
+* Ejemplo-Pandas-02 - [codigo](https://github.com/Knowledge-Based-Systems/Python-basico-01/blob/main/ejemplos-python-pandas/Ejemplo2-Pandas-02.ipynb) 
 ```python
 import pandas as pd
 df = pd.read_csv("data/Matrimonios_2014.csv")
@@ -208,7 +208,7 @@ df.keys()
 df.mes_insc.value_counts()[:12].sort_values(inplace=False).plot(kind='barh')
 ```
 
-* Ejemplo-Pandas-03
+* Ejemplo-Pandas-03 - [codigo](https://github.com/Knowledge-Based-Systems/Python-basico-01/blob/main/ejemplos-python-pandas/Ejemplo-Pandas-03-BD.ipynb) 
 ```python
 import pandas as pd
 import sqlite3
