@@ -197,6 +197,7 @@ data = {'ciudad': ['Loja', 'Pichincha', 'Guayas'],
 frame = pd.DataFrame(data) # Creando un DataFrame desde un diccionario
 frame
 ```
+
 * Ejemplo-Pandas-02
 ```python
 import pandas as pd
@@ -205,6 +206,7 @@ df.keys()
 
 df.mes_insc.value_counts()[:12].sort_values(inplace=False).plot(kind='barh');
 ```
+
 * Ejemplo-Pandas-03
 ```python
 import pandas as pd
