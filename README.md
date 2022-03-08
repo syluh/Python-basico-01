@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Knowledge-Based-Systems/Python-basico-01">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo-kbs.png" alt="logo-kbs" width="80" height="80">
   </a>
 
 <h3 align="center">Python-basico-01</h3>
